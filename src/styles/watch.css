@@ -1,0 +1,90 @@
+.btn {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #04AA6D;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #04AA6D;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  background-color: #04AA6D;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    transition: all 0.3s;
+    transform: translateY(0rem);
+  }
+  
+  input {
+    font-family: 'Roboto', sans-serif;
+    padding: 0.8rem;
+    transition: all 0.3s;
+    transform: translateY(0rem);
+  }
+
+  .hidden {
+    display:none;
+}
+
+
+.timeValue{
+  font-size: 10rem;
+}
+
+.playPauseBtn{
+  margin-bottom: 2.5rem;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+  color: red;
+}
+.danger{
+  color: red;
+}
+.warningText{
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
